@@ -110,7 +110,8 @@
 .article-img__img {
     width :43rem;
     margin-top: 2.8rem;
-    overflow: hidden;    vertical-align: middle;
+    overflow: hidden;
+    vertical-align: middle;
     top: -250px;
     position: relative;
 
@@ -118,9 +119,10 @@
 
 .article-img {
     width: 43rem;
-    height: 22rem;
+    height: 25rem;
     overflow: hidden;
     margin-top: 2.8rem;
+    z-index: 1;
 }
 
 /*.article-img__img::after {*/
@@ -132,9 +134,32 @@
 /*    top: 0;*/
 /*}*/
 
-.article-img:hover  .article-img__img{
-    transform: scale(1.2);
+.article-img:hover .article-img__img{
+    transform: scale(1.1);
+    overflow: hidden;
     transition: all 250ms ease-in-out;
 }
+.article-img:hover {
+    cursor: pointer;
+}
 
+.article-img__span {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    top: -2.5rem;
+    border: 1px solid gray;
+}
 
+.article-heading {
+    margin-top: -2rem;
+}
+
+/*must-do-part css*/
+
+.section {
+    width: 80%;
+}

@@ -75,13 +75,19 @@ const Asia = () => {
                         </ul>
                 </div>
                <div className="page-content-article">
-                   <div className="article-img">
+                   <div className="article-img container">
                        {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
                        <img className="article-img__img" src={require("../../images/article.jpg")}  alt="article picture"/>
                    </div>
-                   <div className="article-heading">
+                   <div className="article-img__span">
 
                    </div>
+                   <div className="article-heading">
+                        <h1 className="text-center container w-75">Vietnam travel guide: A complete 3-week itinerary</h1>
+                   </div>
+               </div>
+               <div className="must-do-content section container d-flex justify-content-between">
+
                </div>
            </div>
            {/*page content intro article*/}
